@@ -101,7 +101,7 @@ describe(`Unit Assessment 3 - Classes`, () => {
       })
     })
     describe(`ralph's info, dialogue, and location variables contain the correct values`, () => {
-      it(`ralphsInfo should be the string: This is a human character named Raplh.`, () => {
+      it(`ralphsInfo should be the string: This is a human character named Ralph.`, () => {
         expect(ralphsInfo).toBe(`This is a human character named Ralph.`)
       })
       it(`ralphsDialogue should be "Ralph: I'm gonna wreck it!"`, () => {
