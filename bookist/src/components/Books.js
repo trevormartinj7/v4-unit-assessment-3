@@ -22,7 +22,7 @@ class Books extends Component{
                     return(
                         <div className="complete-book">
                             <img onClick={() => this.props.addShelf(el.title)} src={el.img}></img>
-                            {el.title}
+                            {el.title} by {el.author}
                         </div>
                     )
                         

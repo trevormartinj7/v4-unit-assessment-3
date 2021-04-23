@@ -50,6 +50,7 @@
 
 .search-bar{
   margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 .bookshelf{
@@ -60,7 +61,7 @@
 
 .complete-book{
   margin: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 65px;
   height: 200px;
   width: 150px;
   /* background-color: gray; */
@@ -87,4 +88,8 @@ img{
 
 .shelf-button{
   width: 80%;
+}
+
+.shelf-item{
+  margin: 10px;
 }
